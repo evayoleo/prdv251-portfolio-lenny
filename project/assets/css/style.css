@@ -1,1 +1,18 @@
+body {
+    background-color: lightyellow;
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+p {
+    font-style:italic;
 
+}
+
+li {
+    margin-bottom: 6px;
+}
+a {
+    color:green;
+}
