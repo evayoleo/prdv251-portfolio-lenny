@@ -68,20 +68,31 @@
                 </label>
 
                 </fieldset>
-                <label>
-    <input type="checkbox" name="services" value="ac_installation">
-    AC Installation
+                <fieldset>
 
-    <input type="checkbox" name="services" value="VRF_Systems">
-VRF Systems
+                     <legend>Services Required</legend>
 
-    <input type="checkbox" name="services" value="ventilation">
-Ventilation Systems
+                     <!--My existing checkbox go here-->
+    <input id="service_ac" type="checkbox" name="services" value="ac_installation">
+    <label for="service_ac">AC Installation</label>
 
-<input type="checkbox" name="services" value="Maintenance">
-Maintenance
+    <br>
 
-</label>
+    <input id="service_vrf" type="checkbox" name="services" value="VRF_Systems">
+    <label for="service_vrf">VRF Systems</label>
+   
+     <br>
+     
+     
+    <input id="service_maintenance" type="checkbox"  name="services" value="Maintenance">
+    <label for="service_maintenance">Maintenance</label>
+
+    <br>
+
+    <input id="service_ventilation" type="checkbox" name="services" value="Ventilation">
+    <label for="service_ventilation">Ventilation</label>
+
+</fieldset>
  <button type="submit">Send Message</button>
  
 
