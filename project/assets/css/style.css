@@ -11,7 +11,11 @@ p {
 }
 
 li {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    
 }
 a {
     color:green;
