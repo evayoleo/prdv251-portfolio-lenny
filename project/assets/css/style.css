@@ -4,7 +4,9 @@ body {
 h1 {
     color: red;
     text-align: center;
+    margin: 20px;
     padding: 20px;
+    border : 2px solid black;
 }
 p {
     font-style:normal;
