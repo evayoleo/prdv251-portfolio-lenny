@@ -30,3 +30,6 @@ font-weight : bold;
 #main-title {
     letter-spacing : 2px;
 }
+a[href="contact.html"] { 
+    color : red;
+}
