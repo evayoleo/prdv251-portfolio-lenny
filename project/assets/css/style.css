@@ -33,3 +33,6 @@ font-weight : bold;
 a[href="contact.html"] { 
     color : red;
 }
+a[href="about.html"] {
+    color : green;
+}
