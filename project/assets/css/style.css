@@ -52,3 +52,7 @@ textarea:focus {
     border : 2px solid blue;
     outline: none;
 }
+button:active {
+    background-color : darkblue;
+    color:white;
+}
