@@ -27,3 +27,6 @@ a {
 .tagline {color : darkblue;
 font-weight : bold;
 }
+#main-title {
+    letter-spacing : 2px;
+}
