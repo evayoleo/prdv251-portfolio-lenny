@@ -1,3 +1,5 @@
+/* 1. GLOBAL PAGE STYLES*/
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f7fa;
@@ -6,21 +8,34 @@ body {
     margin:0;
 
 }
-h1 {
+
+/* 2. HEADERS AND HEADING*/
+
+
+header {
     background-color: #12304a;
     color: white;
     text-align: center;
     padding: 25px;
     
 }
+
+
 header h1 {
     color : white;
-    margin-bottom :5px;
+    margin-top: 0;
+    margin-bottom: 5px;
+
 }
+
+
 header p {
     color: #dbeafe;
     margin-top: 0;
 }
+
+
+/* 3. NAVIGATION*/
 nav a {
     color: white;
     text-decoration: none;
@@ -30,11 +45,14 @@ nav a {
 
 nav a:hover {
     color: #38bdf8;
-}
-p {
-    font-style:normal;
-    Color: blue;
+    text-decoration: underline;
 
+
+}
+
+/* 4. GENERAL CONTENT*/
+p {
+    margin-bottom: 10PX;
 }
 
 li {
@@ -44,34 +62,33 @@ li {
     margin-left: 25px;
 
 }
+/* 5. LINKS OUTSIDE NAVIGATION*/
 
 a:hover {
     color : red;
     text-decoration : underline;
+
 }
-.tagline {color : darkblue;
-font-weight : bold;
+
+/* 6. CONTACT FORM*/
+
+input[type="email"]  {
+    border: 2px solid blue;
+
 }
-#main-title {
-    letter-spacing : 2px;
-}
-a[href="contact.html"] { 
-    color : red;
-}
-a[href="about.html"] {
-    color : green;
-}
-a[target="_blank"] {
-    color : purple;
-}
-input[type="email"] {
-    border : 2px solid blue;
-}
-input: focus,
+
+input:focus,
 textarea:focus {
+
     border : 2px solid blue;
-    outline: none;
+  
 }
+
+/* Keep keyboard focus visible for accessibility */
+
+/* 7. BUTTON INTERACTION */
+
+
 button:active {
     background-color : darkblue;
     color:white;
