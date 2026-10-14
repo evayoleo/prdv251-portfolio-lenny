@@ -13,6 +13,14 @@ h1 {
     padding: 25px;
     
 }
+header h1 {
+    color : white;
+    margin-bottom :5px;
+}
+header p {
+    color: #dbeafe;
+    margin-top: 0;
+}
 p {
     font-style:normal;
     Color: blue;
