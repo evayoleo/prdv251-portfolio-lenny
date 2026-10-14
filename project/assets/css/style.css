@@ -1,5 +1,10 @@
 body {
-    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color:#222222;
+    line-height:1.6;
+    margin:0;
+    
 }
 h1 {
     color: darkBlue;
@@ -55,4 +60,8 @@ textarea:focus {
 button:active {
     background-color : darkblue;
     color:white;
+}
+nav > a {
+    font-weight : bold;
+    
 }
