@@ -4,14 +4,14 @@ body {
     color:#222222;
     line-height:1.6;
     margin:0;
-    
+
 }
 h1 {
-    color: darkBlue;
+    background-color: #12304a;
+    color: white;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
-    border : 2px solid black;
+    padding: 25px;
+    
 }
 p {
     font-style:normal;
