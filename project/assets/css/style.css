@@ -21,6 +21,16 @@ header p {
     color: #dbeafe;
     margin-top: 0;
 }
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12 px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
 p {
     font-style:normal;
     Color: blue;
@@ -68,8 +78,4 @@ textarea:focus {
 button:active {
     background-color : darkblue;
     color:white;
-}
-nav > a {
-    font-weight : bold;
-    
 }
