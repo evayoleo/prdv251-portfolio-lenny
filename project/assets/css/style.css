@@ -44,10 +44,7 @@ li {
     margin-left: 25px;
 
 }
-a {
-    color:green;
 
-}
 a:hover {
     color : red;
     text-decoration : underline;
