@@ -102,3 +102,19 @@ button:active {
     background-color : darkblue;
     color:white;
 }
+
+/* 8. CONTACT FORM LAYOUT */
+
+input,
+textarea {
+
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+
+}
+
+textarea {
+    width: 100%;
+}
