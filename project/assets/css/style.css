@@ -118,3 +118,8 @@ textarea {
 textarea {
     width: 100%;
 }
+
+fieldset {
+    margin-bottom: 15px;
+    padding: 12px;
+}
