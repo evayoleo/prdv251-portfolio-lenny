@@ -39,7 +39,7 @@ header p {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 12 px;
+    margin: 0 12px;
     font-weight: bold;
 }
 
@@ -52,7 +52,7 @@ nav a:hover {
 
 /* 4. GENERAL CONTENT*/
 p {
-    margin-bottom: 10PX;
+    margin-bottom: 10px;
 }
 
 li {
@@ -81,6 +81,8 @@ input:focus,
 textarea:focus {
 
     border : 2px solid blue;
+    outline:2px solid #93c5fd;
+    outline-offset:2px;
   
 }
 
