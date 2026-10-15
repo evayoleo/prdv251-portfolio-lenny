@@ -123,3 +123,16 @@ fieldset {
     margin-bottom: 15px;
     padding: 12px;
 }
+
+/* 9. FOOTER */
+
+footer {
+    background-color: #12304a;
+    color: white;
+    padding: 25px 5%;
+    margin-top: 30%;
+
+}
+footer a {
+    color: #dbeafe;
+}
