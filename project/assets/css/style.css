@@ -136,3 +136,26 @@ footer {
 footer a {
     color: #dbeafe;
 }
+/* 10. RESPONSIVE FOOTER LAYOUT */
+
+footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+footer section {
+
+    flex: 1;
+    min-width: 200px;
+}
+/* 11. STACK FOOTER SECTIONS ON SMALLER SCREENS */
+
+@media(max-width: 600px)  {
+    footer {
+        flex-direction: column;
+    }
+}
