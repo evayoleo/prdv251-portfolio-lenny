@@ -5,3 +5,11 @@ body {
     margin: 0;
     padding: 20px;
 }
+
+/* Style the main website header */
+
+header {
+      background-color: #232f3e;
+      color : white;
+      padding: 20px;
+}
