@@ -21,3 +21,11 @@ nav a {
     text-decoration: none;
     margin-right: 15px;
 }
+
+/* Style account and cart links */
+
+header div a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
