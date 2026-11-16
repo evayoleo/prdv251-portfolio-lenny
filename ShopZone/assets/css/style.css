@@ -10,6 +10,14 @@ body {
 
 header {
       background-color: #232f3e;
-      color : white;
+      color: white;
       padding: 20px;
+}
+
+/* Style links inside the navigation */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
 }
