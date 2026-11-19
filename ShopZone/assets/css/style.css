@@ -80,4 +80,5 @@ header  {
 .category-list h3 {
     padding: 15px;
     background-color: #f2f2f2;
+    border-radius: 5px; /* Slightly rounds the corners */
 }
