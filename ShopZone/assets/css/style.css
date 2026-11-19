@@ -70,3 +70,7 @@ header  {
 .shop-button:hover {
     background-color: #e68a00;
 }
+/* Arrange category items horizontally */
+.category-list {
+    display: flex;
+}
