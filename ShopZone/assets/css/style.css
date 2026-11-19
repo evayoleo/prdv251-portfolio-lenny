@@ -94,4 +94,5 @@ header  {
 .product-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Adds space between product cards */
 }
