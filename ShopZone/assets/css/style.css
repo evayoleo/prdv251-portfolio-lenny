@@ -45,3 +45,9 @@ header  {
     padding: 30px; /* Adds space inside the hero section */
     text-align: center; /* Centres text horizontally */
 }
+
+/* Make the hero heading more prominent */
+.hero h2 {
+    font-size: 32px;
+
+}
