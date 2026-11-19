@@ -43,4 +43,5 @@ header  {
 .hero {
     background-color: #f2f2f2;
     padding: 30px; /* Adds space inside the hero section */
+    text-align: center; /* Centres text horizontally */
 }
