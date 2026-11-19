@@ -85,3 +85,8 @@ header  {
     border: 1px solid #ddd; /* Adds a light-grey border */
 
 }
+/* Highlight category cards when hovered over */
+.category-list h3:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
