@@ -64,8 +64,9 @@ header  {
     padding: 12px 24px;
     text-decoration: none;
     border-radius: 5px; /* Slightly rounds the corners */
+    transition: background-color 0.3s ease;
 }
-/* Change the button appearance when the mouse hoversover it */
+/* Change the button appearance when the mouse hovers over it */
 .shop-button:hover {
     background-color: #e68a00;
 }
