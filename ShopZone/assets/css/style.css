@@ -65,3 +65,7 @@ header  {
     text-decoration: none;
     border-radius: 5px; /* Slightly rounds the corners */
 }
+/* Change the button appearance when the mouse hoversover it */
+.shop-button:hover {
+    background-color: #e68a00;
+}
