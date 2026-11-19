@@ -73,4 +73,5 @@ header  {
 /* Arrange category items horizontally */
 .category-list {
     display: flex;
+    gap: 20px; /* Adds space between category items */
 }
