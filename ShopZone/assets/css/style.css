@@ -38,3 +38,8 @@ header  {
       flex-wrap: wrap; /* Allows items to move to another line */
       gap: 15px; /* Adds space between flex items */
 }
+
+/* Style the main promotional hero section */
+.hero {
+    background-color: #f2f2f2;
+}
