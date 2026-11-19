@@ -90,3 +90,7 @@ header  {
     background-color: #e0e0e0;
     cursor: pointer;
 }
+/* Arrange produc cards using css Grid */
+.product-grid {
+    display: grid;
+}
