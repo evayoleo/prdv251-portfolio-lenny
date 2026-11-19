@@ -51,3 +51,8 @@ header  {
     font-size: 32px;
 
 }
+
+/* Make the hero paragragh more prominent */
+.hero p {
+    font-size: 18px;
+}
