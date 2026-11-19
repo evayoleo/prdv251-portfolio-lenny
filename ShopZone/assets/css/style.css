@@ -83,7 +83,7 @@ header  {
     background-color: #f2f2f2;
     border-radius: 5px; /* Slightly rounds the corners */
     border: 1px solid #ddd; /* Adds a light-grey border */
-
+    transition: background-color 0.3s ease;
 }
 /* Highlight category cards when hovered over */
 .category-list h3:hover {
