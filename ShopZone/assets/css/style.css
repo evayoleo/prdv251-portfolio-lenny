@@ -93,4 +93,5 @@ header  {
 /* Arrange produc cards using css Grid */
 .product-grid {
     display: grid;
+    grid-template-columns: 1fr 1fr;
 }
