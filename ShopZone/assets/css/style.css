@@ -109,10 +109,10 @@ header  {
 /* Style each individual product card */
 .product-grid > div {
     background-color: #ffffff;
-    padding: 15px;
+    padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin-bottom: 10px;
+    text-align: center;
 }
 /* Style product names */
 .product-grid h3 {
