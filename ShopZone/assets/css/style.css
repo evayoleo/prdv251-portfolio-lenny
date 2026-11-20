@@ -136,3 +136,18 @@ header  {
     grid-template-columns: 1fr;
 }
 }
+/* Style footer navigation links */
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Add a hover effect to footer links */
+footer nav a:hover {
+    color: #ff9900;
+}
+/* Style the copyright text */
+footer p {
+    font-size: 14px;
+}
