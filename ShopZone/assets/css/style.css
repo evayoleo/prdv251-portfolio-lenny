@@ -114,3 +114,8 @@ header  {
     border-radius: 5px;
     margin-bottom: 10px;
 }
+/* Style product names */
+.product-grid h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
