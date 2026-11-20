@@ -136,6 +136,14 @@ header  {
     grid-template-columns: 1fr;
 }
 }
+/* Style the website footer */
+footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
 /* Style footer navigation links */
 footer nav a {
     color: white;
