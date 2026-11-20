@@ -113,6 +113,12 @@ header  {
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Add a subtle effect when hovering over product cards */
+.product-grid > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 /* Style product names */
 .product-grid h3 {
@@ -123,4 +129,10 @@ header  {
 .product-grid p {
     font-size: 16px;
     color: #333;
+}
+/* Adjust product grid for smaller screens*/
+@media(max-width: 600px) {
+.product-grid {
+    grid-template-columns: 1fr;
+}
 }
