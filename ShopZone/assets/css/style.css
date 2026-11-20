@@ -102,3 +102,10 @@ header  {
     height: 200%;
     object-fit: contain;
 }
+/* Style each individual product card */
+.product-grid > div {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
