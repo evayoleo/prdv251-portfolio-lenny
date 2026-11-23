@@ -26,16 +26,29 @@
         <h2>Contact Us</h2>
         <p>Have a question or want to place an order? Get in touch.</p>
 
-        <!-- Contact and delivery details form -->
-        <form>
+ <!-- Group the customer details and message fields -->
+<form class="contact-form">
+    <fieldset>
+        <legend>Customer Details</legend>
+
+        <div class="form-group">
             <label for="customer-name">Your Name:</label>
-            <input type="text" id="customer-name" name="customer-name" required>
+            <input type="text" id="customer-name"
+                   name="customer-name" required>
+        </div>
 
+        <div class="form-group">
             <label for="customer-email">Email Address:</label>
-            <input type="email" id="customer-email" name="customer-email" required>
+            <input type="email" id="customer-email"
+                   name="customer-email" required>
+        </div>
 
-            <label for="delivery-location">Where would you like your order delivered?</label>
-            <select id="delivery-location" name="delivery-location" required>
+        <div class="form-group">
+            <label for="delivery-location">
+                Where would you like your order delivered?
+            </label>
+            <select id="delivery-location"
+                    name="delivery-location" required>
                 <option value="">Choose your location</option>
                 <option value="nairobi">Nairobi</option>
                 <option value="mombasa">Mombasa</option>
@@ -44,12 +57,21 @@
                 <option value="eldoret">Eldoret</option>
                 <option value="other">Other</option>
             </select>
+        </div>
+    </fieldset>
 
-            <label for="message">Your Message or Order Details:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+    <fieldset>
+        <legend>Your Message</legend>
 
-            <button type="submit">Send Message</button>
-        </form>
+        <div class="form-group">
+            <label for="message">Message or Order Details:</label>
+            <textarea id="message" name="message"
+                      rows="5" required></textarea>
+        </div>
+    </fieldset>
+
+    <button type="submit">Send Message</button>
+</form>
     </main>
 
     <!-- Website footer -->

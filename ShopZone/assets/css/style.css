@@ -159,3 +159,54 @@ footer nav a:hover {
 footer p {
     font-size: 14px;
 }
+/* Keep the contact form neatly arranged */
+.contact-form {
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+/* Group related form fields */
+.contact-form fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the title of each field group */
+.contact-form legend {
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+/* Keep each label and its field together */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 15px;
+}
+
+/* Make the fields easy to use */
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font: inherit;
+}
+
+/* Keep the message box resizable vertically */
+.contact-form textarea {
+    resize: vertical;
+}
+
+/* Style the submit button */
+.contact-form button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
