@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopZone | Contact</title>
+
+    <!-- Reuse the shared ShopZone stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Website header -->
+    <header>
+        <h1>ShopZone</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="categories.html">Categories</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <p>Have a question or want to place an order? Get in touch.</p>
+
+        <!-- Contact and delivery details form -->
+        <form>
+            <label for="customer-name">Your Name:</label>
+            <input type="text" id="customer-name" name="customer-name" required>
+
+            <label for="customer-email">Email Address:</label>
+            <input type="email" id="customer-email" name="customer-email" required>
+
+            <label for="delivery-location">Where would you like your order delivered?</label>
+            <select id="delivery-location" name="delivery-location" required>
+                <option value="">Choose your location</option>
+                <option value="nairobi">Nairobi</option>
+                <option value="mombasa">Mombasa</option>
+                <option value="kisumu">Kisumu</option>
+                <option value="nakuru">Nakuru</option>
+                <option value="eldoret">Eldoret</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="message">Your Message or Order Details:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <!-- Website footer -->
+    <footer>
+        <h2>ShopZone</h2>
+        <p>Your one-stop shop for great products at great prices.</p>
+        <p>&copy; 2026 ShopZone. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
