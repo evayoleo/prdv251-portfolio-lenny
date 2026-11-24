@@ -32,3 +32,7 @@ article {
 footer {
     padding: 20px;
 }
+/* Show a visual change when the pointer is over a navigation link */
+nav a:hover {
+    text-decoration: underline;
+}
