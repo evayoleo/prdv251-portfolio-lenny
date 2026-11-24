@@ -21,3 +21,10 @@ nav a {
 main {
     padding: 20px;
 }
+/* Featured match card */
+article {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
