@@ -28,3 +28,7 @@ article {
     margin-top: 15px;
     border-radius: 8px;
 }
+/* Footer spacing */
+footer {
+    padding: 20px;
+}
