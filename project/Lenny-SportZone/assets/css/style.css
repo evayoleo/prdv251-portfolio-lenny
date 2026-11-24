@@ -17,3 +17,7 @@ nav a {
     margin-right: 15px;
     text-decoration: none;
 }
+/* Space around the main page content */
+main {
+    padding: 20px;
+}
