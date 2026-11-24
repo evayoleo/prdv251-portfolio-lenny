@@ -5,3 +5,15 @@ body {
     color: #222;
     margin: 0;
 }
+/* Header and navigation */
+header {
+    background-color: #172554;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
