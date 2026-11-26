@@ -54,3 +54,13 @@ article h3 {
     color: #172554;
     margin-top: 0;
 }
+/* Allow navigation links to wrap on smaller screens */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    margin-right: 0;
+}
