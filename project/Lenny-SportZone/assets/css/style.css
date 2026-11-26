@@ -4,6 +4,7 @@ body {
     background-color: #f4f6f8;
     color: #222;
     margin: 0;
+    line-height: 1.6;
 }
 /* Header and navigation */
 header {
