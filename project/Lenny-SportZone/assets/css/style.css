@@ -35,7 +35,8 @@ article {
 /* Footer spacing */
 footer {
     padding: 20px;
-    border-top: 1px solid #d1d5db
+    border-top: 1px solid #d1d5db;
+    text-align: center;
 }
 /* Show a visual change when the pointer is over a navigation link */
 nav a:hover {
