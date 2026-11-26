@@ -20,6 +20,8 @@ nav a {
 /* Space around the main page content */
 main {
     padding: 20px;
+    max-width: 100px;
+    margin: 0 auto;
 }
 /* Featured match card */
 article {
@@ -41,4 +43,9 @@ nav a:hover {
 h2 {
     color: #172554;
     margin-bottom: 10px;
+}
+/* Style the match title */
+article h3 {
+    color: #172554;
+    margin-top: 0;
 }
