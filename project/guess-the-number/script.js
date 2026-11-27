@@ -5,6 +5,7 @@ const attemptsDisplay = document.querySelector("#attempts");
 const guessInput = document.querySelector("#guess"); 
 const checkButton = document.querySelector("#check-button");
 const feedback = document.querySelector("#feedback");
+const winGif = document.querySelector("#win-gif");
 
 checkButton.addEventListener("click", function () {
   const guess = Number(guessInput.value);
