@@ -46,3 +46,10 @@ body {
   display: inline-block;
   animation: celebrate 0.6s ease-in-out;
 }
+#win-gif {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  display: block;
+  margin: 16px auto;
+}
