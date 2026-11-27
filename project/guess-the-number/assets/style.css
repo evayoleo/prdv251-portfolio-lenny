@@ -19,3 +19,6 @@ body {
     border-radius: 6px;
     cursor: pointer;
 }
+#check-button:hover {
+    background-color: #1d4ed8;
+}
