@@ -27,6 +27,7 @@ checkButton.addEventListener("click", function () {
   if (guess === secretNumber) {
     feedback.textContent = "You got it in " + attempts + " attempts!";
     feedback.classList.add("win");
+    winGif.hidden = false;
   } else if (guess > secretNumber)  {
     feedback.textContent = "Too high! Try again.";
   } else   {
