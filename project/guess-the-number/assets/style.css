@@ -22,3 +22,22 @@ body {
 #check-button:hover {
     background-color: #1d4ed8;
 }
+#feedback.win {
+  color: #15803d;
+  font-weight: bold;
+  animation: celebrate 0.6s ease-in-out;
+}
+
+@keyframes celebrate {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
